@@ -84,6 +84,53 @@ print(len(L))
 print(type(L))
 print(type(L[2]))# particular elemnt Type
 
+r=range(10)
+print(type(r))
+print(r)
+for i in r: #just like a each loop in java
+    print(i)
+
+print("++++++++++++++++++++++++++")
+print(r[5])
+print("========================================================\n @@@@@@@@@@\t %%%%%%%%%%%%%%%%%%%%%")
+# r[0]=777# this is invaliid
+for i in range(10, 50, 5):# 5 is diffrences between 10  to 50 printing element will print in that sequence
+    print(i)
+'''
+it is applicable for interger value only Range()
 
 
+y=range(10.5, 50.66)
+for i in y:
+    print(i)
+'''
+print("==========Set===========")
 
+s={10, 20, 30}# duplicate are not allowed in case of Set
+print(s)
+# print(s[0])
+'''
+Traceback (most recent call last):
+  File "Collection.py", line 111, in <module>
+    print(s[0])
+TypeError: 'set' object does not support indexing
+insertion Order n
+indexing n
+duplicate n
+hetrogeneous y
+slicing 
+
+
+'''
+s.add("Rachit")
+print(s)
+s.remove(20)
+print(s)
+s1=set()
+for i in range(10):
+    s1.add(i)
+
+print(s1)
+
+s2={'a','b','c','d','ce'}
+print(s2)#order ia not preserved 
