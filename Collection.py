@@ -134,3 +134,8 @@ print(s1)
 
 s2={'a','b','c','d','ce'}
 print(s2)#order ia not preserved 
+s={10, 20, 30}
+fs=frozenset(s)
+print(type(fs))
+print(fs)
+# frozenset is immutable we can't cahnge and can't use any method like add remove Bytes in Immutable and Byte array is immutable
