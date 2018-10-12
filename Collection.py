@@ -139,3 +139,20 @@ fs=frozenset(s)
 print(type(fs))
 print(fs)
 # frozenset is immutable we can't cahnge and can't use any method like add remove Bytes in Immutable and Byte array is immutable
+
+# [] list 
+# ()--tuple 
+# {} Set 
+# {} Dict ----having Key and value pair represented by {} curly braces given below also.
+print("#####################################################{}DICT::::::#############################")
+d={100:'Rachit', 200: 'Mohit', 300:'rajan'}
+print(type(d))
+print(d) 
+d1={}
+d2=set()# empty set declaring way
+print(type(d1))
+print(type(d2))
+print(d[100])
+d1[100]='sumit'
+d1[200]='soman'
+print(d1)
