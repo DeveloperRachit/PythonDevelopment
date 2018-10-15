@@ -156,3 +156,34 @@ print(d[100])
 d1[100]='sumit'
 d1[200]='soman'
 print(d1)
+d1[100]='sumit1' # when it will get duplicacy in Key then it will interchange the old value by the new value but not allowed duplicate key
+print(d1)
+
+
+l=[10, 20 ,30 ,40]
+b= bytes(l)
+print(type(b))
+# b[0]=100 error just because of immutable
+# should be range 0 to 256
+print(b[0])
+
+l=[10, 20 ,30 ,40]
+b= bytearray(l)
+print(type(b))
+b[0]=100 # in the case of Bytearray this is not error just because of mutablility
+print(b[0])
+# range to represent a range of values 
+# range(10) ---->  0 to 9
+# range(10, 30)---->  10 to 29
+
+
+# fuctions in Python:
+
+
+
+def f1():
+  print("hello don't be like")
+
+f1()
+
+
