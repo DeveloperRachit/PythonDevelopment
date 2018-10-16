@@ -187,3 +187,72 @@ def f1():
 f1()
 
 
+
+
+def f2():
+ a=10
+
+print(f2()) # None will return becoz there no value and not returning 
+# Using Pass Keyword 
+
+def f3():
+#  if we will not write any thing inside Function then it will throw error like
+# this is the error  SyntaxError: unexpected EOF while parsing
+# if this function is not doing anything just Pass the keyword using Pass like below 
+  pass #better way to keep[none]
+
+# Escape Character :
+# ---------------------
+# \n, \t, \r, \b , \', \", \\, \v
+print("hello \n World")
+print("hello \t World")
+# print("hello \r World")
+# print("hello \b World")
+print("hello \"Durga sir \" World")
+print('hello "Durga sir" World')
+print('''hello 'Durga sir' and "great" World''')
+print("""hello 'Durga sir' and "great" World""")
+print("hello \'Durga sir\' and \"great\" World")
+#=---------- Constants--------- constant method is not applicable in python
+
+'''
+Operators:::::::::::::
+Arithmetic
+relational or comparison 
+logical
+bitwise
+Assignment
+Special
+----------------
+// floor division Operator
+** Exponent Operator or power Operator
+
+
+
+
+
+
+
+
+
+
+'''
+
+
+# if both values are INT then result will get INT
+# if one is Float then will get Answer Float
+a=10.5
+b=2
+print("a+b",a+b )
+print("a-b",a-b )
+print("a*b",a*b )
+print("a/b",a/b )
+print("a%b",a%b )
+print("a//b",a//b )
+print("a**b",a**b )
+print("a/b",10/3 )
+print("a//b",10//3 )# it will have INT value only  
+# Opreators for String(str)
+
+
+
