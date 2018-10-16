@@ -254,5 +254,42 @@ print("a/b",10/3 )
 print("a//b",10//3 )# it will have INT value only  
 # Opreators for String(str)
 
+print("print"+'3')# if you are trying to use like this 'print'+ 3 u will get error because python treated 3 as a int 
+print('print'+ str(3) )
+# String Manilpulation Operator
+
+print('print' * 3)# Exponential Operator 
+# print('print' * '3') go to get error one arg should be int and 2nd must be Str
+# print('print' * 3.0)# this is also not applicable because of Floating no.
+print(2 * 'print' )
+print(10** -2)
+print((10+2j)** (10+3j))
+# print(10/0)   error
+# print(10%0)  erroe
+print(10** 0)# 1
 
 
+# ===============Relational Operators==============
+print("a<b", a<b)
+print("a<=b", a<=b)
+print("a>b",a>b)
+print("a>=b",a>=b)
+
+
+a=True
+b=False
+
+
+print("a<b", a<b)
+print("a<=b", a<=b)
+print("a>b",a>b)
+print("a>=b",a>=b)
+
+
+a=10
+b=20
+
+if(a>b):
+  print("A is greater than B")
+else:
+  print("A is not greater than B")
