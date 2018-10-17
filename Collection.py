@@ -293,3 +293,13 @@ if(a>b):
   print("A is greater than B")
 else:
   print("A is not greater than B")
+
+  print('a'==97)# ascii value also by default it take as like JAva
+  print(10==3+7==2*5==5+5)
+  print((10+2j)==(10+2j))
+  print((10+2j)=='durga')
+  print(10==10.0)
+  print(10 and 20)# if x evaluate to false then return x otherwisw return y
+  print(0 and 20)
+  print(1 and 'durga')
+  print(0 and 'durga')
