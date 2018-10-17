@@ -293,13 +293,102 @@ if(a>b):
   print("A is greater than B")
 else:
   print("A is not greater than B")
-
+# no zero value is true and zero is false
   print('a'==97)# ascii value also by default it take as like JAva
   print(10==3+7==2*5==5+5)
   print((10+2j)==(10+2j))
   print((10+2j)=='durga')
   print(10==10.0)
-  print(10 and 20)# if x evaluate to false then return x otherwisw return y
+  print(10 and 20)# X and Y if x evaluate to false then return x otherwisw return y
   print(0 and 20)
   print(1 and 'durga')
   print(0 and 'durga')
+  # X or y if x evaluate to True then Returns x otherwise return y
+  print(10 or 20)
+  print(0 or 20)
+  print(0 or 0)
+
+  # Not X:: this operator always return boolean value
+print(not 10)
+# empty string is treated as False
+print(not '')
+print(0 or True)
+print(10 or 10/0)
+# print(0 or 10/0) error
+
+# and===> if both arg  are true then only true
+# or===> if atleast one arg is true then true
+# not ===> 
+# BitWise Operator
+# ---------------------------------
+# & | ^ ~ << >>
+# applicable for int and  boolean
+# & if both bits are 1 then only 1 otherwiswe 0
+# | if atleast bits are 1 then only 1 otherwiswe 0
+# ^ x-or ==> if both arguments are differ then 1 otherwise 0
+# ~  bit wise complement operator 1====>0 and 0======>1
+# << bit wise left shift
+# >> bitwise right shift
+# 4 & 5===> 100  or 101==> 100===>4 ans
+# 4 | 5===> 100  and 101==> 101===>5 ans
+#  4 ^ 5===> 100  x-or 101==> 001===>1 ans
+# ~4==>===> 100====>>>011===>>>>3 ans      ~ means -4
+print(4 & 5)
+print(4 | 5)
+print(4 ^ 5)
+print(~ 4)
+
+# 1's complements ans 2 's complements will get applying 
+print(~ True)# same as ~1 
+
+# << left shift
+# >> right Shift
+
+print(10<<2)
+print(-10>>2)
+# assignment op/
+x=10
+x+=10
+# print(x)
+# print(++x)
+# ternary operator
+# p=(10>5)?'hello': "wrong"
+# print(p)
+# a=int(input("Enter the First Number:::"))
+# b=int(input("Enter the second Number:::"))
+# c=int(input("Enter the Third Number:::"))
+# max=a if a>b and a>c else b if b>c else c
+# print("Max Value::", max)
+'''
+a=int(input("Enter the Number:::"))
+b=int(input("Enter the Second Numbers:::"))
+print("Both are equals" if a==b else "First number is greater than second" if a>b else "First Number is smaller than Second Number")
+'''
+
+# ::::::::::::::Special Operators :::::::::::::::::|
+# --------------------------------------------------
+
+# 1. Identity  Operator=====> Address comparison purpose (Refernces Variable)
+# 2. Membership Operator====>
+
+a=10
+b=10
+print(a is b)# 1.
+print(a is not b) 
+a="durga"
+b="durga"
+print(id(a))
+print(id(b))
+print(a is b)
+a=[10,20,30]
+b=[10,20,30]
+print(id(a))
+print(id(b))
+print(a is b)# address Comparison Identity  Operator
+print(a==b)# content comparison  Identity  Operator
+
+# +++++++++++Membership operator++++++++++++++++++
+# in , not in
+list1=[10,20,30,40]
+print(10 in list1)
+print(60 not in list1)
