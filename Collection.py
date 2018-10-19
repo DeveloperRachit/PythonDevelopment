@@ -392,3 +392,25 @@ print(a==b)# content comparison  Identity  Operator
 list1=[10,20,30,40]
 print(10 in list1)
 print(60 not in list1)
+
+S="hello this is rachit !!!!!!!"
+print("hello" in S)
+print("is" in S)
+print(" " in S)
+print("he" not  in S)
+print("R" in S)
+
+# ++++++++Operator precedences++++++++++++++
+print(10+3*2+(10+80))
+
+# () parentheses
+# ** Exponential
+# ~ - unary 
+# * / %  // 
+
+
+
+
+
+
+
