@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-<!-- ******
-=======
-# PythonDevelopment
-
-
-Pattern.py
-
-******
->>>>>>> b51ecc7db49941e12469bef2ffa9d836e5a47a51
-******
+<!-- 
 ******
 ******
 ******
@@ -82,4 +72,4 @@ E       E
 <<<<<<< HEAD
 # PythonDevelopment -->
 =======
->>>>>>> b51ecc7db49941e12469bef2ffa9d836e5a47a51
+>>>>>>> b51ecc7db49941e12469bef2ffa9d836e5a47a51 -->
