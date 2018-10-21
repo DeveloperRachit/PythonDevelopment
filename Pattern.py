@@ -31,3 +31,70 @@ for i in range(1, num+1):
                 print(chr(64+i),end="")  
     
     print()     
+
+
+    # Tree printing
+    
+for i in range(1, num+1):
+    print(" "*(num-i),end="")
+    for j in range(i,i+1):
+        print("* ",end="")                
+        if i>=2:
+            # print(" "*(2*i), end="")   
+            for k in range(i,2*i-1): 
+                print("* ",end="")
+    print() 
+    for a in range(1,num+1):
+        print(" "*(num-i),end="")    
+        for b in range(a,a+1):
+          print("* ",end="")                
+          if i>=2:
+            # print(" "*(2*i), end="")   
+            for k in range(i,2*i-1): 
+                print("* ",end="")
+
+     
+        print()            
+
+
+
+
+
+#TRAJJJJJJJJJJJJJJJJJ
+
+
+for i in range(1, num+1):
+    print(" "*(num-i),end="")
+    for j in range(i,i+1):
+        print("* ",end="")                
+        if i>=2:
+            # print(" "*(2*i), end="")   
+            for k in range(i,2*i-1): 
+                print("* ",end="")
+    print() 
+for i in range(1, num+1):
+    print(" "*(num-i),end="")
+    for j in range(i,i+1):
+        print("* ",end="")                
+        if i>=2:
+            # print(" "*(2*i), end="")   
+            for k in range(i,2*i-1): 
+                print("* ",end="")
+    print()
+for i in range(1, num+1):
+    print(" "*(num-i),end="")
+    for j in range(i,i+1):
+        print("* ",end="")                
+        if i>=2:
+            # print(" "*(2*i), end="")   
+            for k in range(i,2*i-1): 
+                print("* ",end="")
+    print()    
+
+
+for i in range(1, num+1):
+     print(" "*(num-1),end="")
+     for j in range(i,i+1):
+        print("* ",end="")
+
+     print()     
