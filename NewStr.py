@@ -5,6 +5,7 @@
 # else:
 #     print("Plz Enter Valid city")   
 # No of occurence in string
+'''
 s=input("Enter main String")
 subs=input("Enter substring")
 flag=False
@@ -26,4 +27,27 @@ print("The number of occurence ::", count)
 # count(subs) count(subs, begininndex, end index)
 # print(s.count(subs))
 # print(s.count(subs,1,8))
-print(s.replace("difficult","easy"))
+s=s.replace("difficult","easy")
+# print(s.replace("difficult","easy"))
+print(s)
+'''
+
+
+s='abababab'
+# s1=s.replace('a','b')
+print(s,"Address is before replcement:", id(s))
+# print(s1,"Address is:", id(s1))
+
+print("Adress is after Replacement:::",s.replace('a','b'),id(s))
+# Spiliting of strings:::::::;;
+
+s="30-10-2018"#"Durga software Solutions"
+# l=s.split('-',1)
+l=s.rsplit('-',1)# Reverese
+print(l)
+for x in l:
+    print(x)
+
+l=['durga', 'soft', 'solution']
+s=' '.join(l)
+print(s)    
