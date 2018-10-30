@@ -196,6 +196,14 @@ elif s1<s2:
         print("first String is Smaller than Second String")
 else:
         print("first String is bigger than Second String")
-                        
 
 
+l1=["A", "B","C"]# these are not fundamental data Types
+l2=["A", "B","C"]
+print(id(l1))
+print(id(l2))
+print(l1 is l2)# refer is Diff 
+print(l1==l2)# but content is same
+l3=l2 # Same object is assign in l3 so it is getting true
+print(l1 is l2)
+print(l2 is l3)
