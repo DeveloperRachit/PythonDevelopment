@@ -184,8 +184,18 @@ while i>=-n:
 
 
 # Membership operators::::::::;
+# In and not in
+# Comparison operators
 
+s1=input("Enter First String::::")
+s2=input("Enter Second String::::")
+if s1==s2:
+        print("Both are Same")
 
-
+elif s1<s2:
+        print("first String is Smaller than Second String")
+else:
+        print("first String is bigger than Second String")
+                        
 
 
