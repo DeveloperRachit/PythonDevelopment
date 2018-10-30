@@ -80,4 +80,26 @@ for i in range(100):
 x=10
 print("variable value is::::::",x)
 del x
-print("after deleting",x)
+# print("after deleting",x)
+
+x=10
+y=20
+print(x, "\t", y)
+del x,y# we are able to del multiple object and variable alsoss
+# print(x, "\t", y)
+x=10
+y=20
+del x
+y=None
+print(y)
+# print(x) 
+
+s1="durga"
+s2="durga"
+s3='durga'
+print("s1 ",id(s1)," s2", id(s2),"s3", id(s3))
+del(s1)
+print(s2)
+print(s3)
+
+
