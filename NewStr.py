@@ -51,3 +51,10 @@ for x in l:
 l=['durga', 'soft', 'solution']
 s=' '.join(l)
 print(s)    
+
+s1="Python Classes by Durga Sir"
+print(s1.upper())
+print(s1.lower())
+print(s1.title())
+print(s1.swapcase())
+print(s1.capitalize())# only one letter is the upper case rest of lower
