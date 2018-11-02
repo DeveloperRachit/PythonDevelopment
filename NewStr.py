@@ -58,3 +58,64 @@ print(s1.lower())
 print(s1.title())
 print(s1.swapcase())
 print(s1.capitalize())# only one letter is the upper case rest of lower
+print(s1.startswith('Python'))
+print(s1.endswith('easy'))
+
+# To print chracter at odd position and even position for the given strings
+s= input("Enter the Strings")#using Slice operator
+print("Charcter at even position:::",s[::2])
+print("Charcter at odd position:::",s[1::2])
+# without using Slice operator
+
+i=0
+print("the charcter at Even Position::::::")
+while i<len(s):
+    print(s[i],end="")
+    i=i+2
+print("the charcter at odd Position::::::")
+i=1  
+while i<len(s):
+    print(s[i],end="")
+    i=i+2
+
+#################################
+s=input("Enter the Strings:::::::::::")
+s1=s2=output=''
+for x in s:
+    if x.isalpha():
+        s1=s1+x
+    else:
+        s2=s2+x 
+# print(s1)
+# print(s2)
+   
+# for x in sorted(s1):
+#     output=output+x           
+
+# for x in sorted(s2):
+#     output=output+x           
+# print(output)
+output=s1+s2
+print(sorted(output))
+# s=input("Enter the Strings::::::::::")
+# output=''
+# for x in s:
+#     if x.isalpha():
+#         output=output+x
+#         previous=x  
+#     else:
+#        output=output+previous*(int(x)-1) 
+# print(output)       
+
+
+
+s=input("Enter the Strings::::::::::")
+output=''
+for x in s:
+    if x.isalpha():
+        output=output+x
+        previous=x  
+    else:
+       newchar=chr(ord(previous)+int(x))
+       output=output+newchar
+print(output)        
