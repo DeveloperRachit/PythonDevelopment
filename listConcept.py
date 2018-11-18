@@ -48,3 +48,10 @@ l1.extend(l2)
 print(l1)
 print(l2)
 print(id(l1))
+
+
+# sorted 
+
+t=[10, 30, 40, 20, 5, 11]
+t.sorted()
+print(t) 
