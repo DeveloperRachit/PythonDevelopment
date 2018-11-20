@@ -1,26 +1,14 @@
+{% load static %}
 <html>
     <head>
         <title>Welcome to Django</title>
-        <style>
-        body{
-
-            background-color: red;
-            color:white;
-
-        /* }
-        h1{
-
-            /* border: 10px solid black; */
-        } 
-        
-
-        </style>
+        <link rel="stylesheet" href="{%static 'css/style1.css' %}">
     </head>
     <body>
-
+        <img src="{%static 'images/ch.jpg' %}">
         <h1>Good Night!!!!</h1>
 
-        <h2>The server date and time is:{{date}}</h2>    <hr>
+        <h2>The server date and time is:{{time}}</h2>    <hr>
       
         <table border="5">
             <tr>

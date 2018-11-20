@@ -1,0 +1,29 @@
+{% load staticfiles %}
+<html>
+<head>
+    
+    <title>Welcome To Durga New Portal</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{%static './css/dnews.css' %}">
+
+</head>
+<body>
+
+    <h1>Durga Movies  news information--- head lines of Today</h1><hr>
+    <ul>
+        <li>{{news1|title}}</li>
+        <li>{{news2|title}}</li>
+        <li>{{news3|title}}</li>
+        <li>{{news4|title}}</li>
+        <li>{{news5|title}}</li>
+    </ul>
+    <img src="{%static 'images/mov.jpg'%}" alt="">
+    <img src="{%static 'images/mov1.jpg'%}" alt="">
+    <img src="{%static 'images/mov2.jpg'%}" alt="">
+    <img src="{%static 'images/mov3.jpg'%}" alt="">
+    
+</body>
+
+</html>
