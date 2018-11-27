@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home_page_view),
     path('movies/', views.movie_news_view),
+    path('data/', views.employee_info_view),
 ]
